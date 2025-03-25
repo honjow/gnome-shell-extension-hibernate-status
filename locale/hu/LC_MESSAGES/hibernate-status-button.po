@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hibernate Status Button\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-11 18:31+0200\n"
+"POT-Creation-Date: 2025-03-25 18:22+0800\n"
 "PO-Revision-Date: 2023-02-25 00:00+0100\n"
 "Last-Translator: ViBE <vibe@protonmail.com>\n"
 "Language-Team: Hungarian <vibe@protonmail.com>\n"
@@ -18,55 +18,113 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Gtranslator 41.0\n"
 
-#: confirmDialog.js:23 confirmDialog.js:32
+#: extension.js:245 extension.js:255 extension.js:441 prefs.js:107 prefs.js:138
 msgid "Hibernate"
 msgstr "Hibernálás"
 
-#: extension.js:192
-msgid "Hybrid Sleep"
-msgstr "Hibrid felfüggesztés"
-
-#: confirmDialog.js:24
+#: extension.js:246
 msgid "Do you really want to hibernate the system?"
 msgstr "Valóban hibernálni szeretné a rendszert?"
 
-#: confirmDialog.js:27 confirmDialog.js:44 confirmDialog.js:67
+#: extension.js:250 extension.js:283 extension.js:316 extension.js:356
+#: extension.js:403
 msgid "Cancel"
 msgstr "Mégse"
 
-#: confirmDialog.js:40
+#: extension.js:278 extension.js:288 extension.js:448
+msgid "Hybrid Sleep"
+msgstr "Hibrid felfüggesztés"
+
+#: extension.js:279
+#, fuzzy
+msgid "Do you really want to hybrid sleep the system?"
+msgstr "Valóban hibernálni szeretné a rendszert?"
+
+#: extension.js:311 extension.js:321 extension.js:456 prefs.js:146
+msgid "Suspend then Hibernate"
+msgstr ""
+
+#: extension.js:312
+#, fuzzy
+msgid "Do you really want to suspend then hibernate the system?"
+msgstr "Valóban hibernálni szeretné a rendszert?"
+
+#: extension.js:351
 msgid "Hibernate button: Systemd Missing"
 msgstr "Hibernate button: systemd nem található"
 
-#: confirmDialog.js:41
+#: extension.js:352
 msgid "Systemd seems to be missing and is required."
 msgstr "Úgy tűnik, hogy a hibernáláshoz szükséges systemd nincs telepítve."
 
-#: confirmDialog.js:49 confirmDialog.js:72
+#: extension.js:361 extension.js:408
 msgid "Disable Extension"
 msgstr "Kiterjesztés letiltása"
 
-#: confirmDialog.js:58
+#: extension.js:392
 msgid "Hibernate button: Hibernate failed"
 msgstr "Hibernate button: Hibernálás meghiúsult"
 
-#: confirmDialog.js:59
+#: extension.js:394
+#, fuzzy
 msgid ""
-"Looks like hibernation failed.\n"
-"On some linux distributions hibernation is disabled\n"
-"because not all hardware supports it well;\n"
-"please check your distribution documentation\n"
-"on how to enable it."
+"Looks like hibernation failed. On some linux distributions hibernation is "
+"disabled because not all hardware supports it well; please check your "
+"distribution documentation on how to enable it."
 msgstr ""
 "Úgy tűnik, hogy a hibernálás sikertelen volt.\n"
 "Egyes Linux kiadások nem támogatják ezt a funkciót,\n"
 "mert nem minden eszköz támogatja a hibernálást;\n"
 "engedélyezéshez ellenőrizze a rendszer dokumentációját!"
 
-#: confirmDialog.js:64
+#: extension.js:399
 msgid "You are wrong, don't check this anymore!"
 msgstr "Ne ellenőrizd ezt többet!"
 
-#: prefs.js:99
-msgid "This extension has no settings available"
-msgstr "Ennek a kiterjesztésnek nincsenek beállításai"
+#: prefs.js:91
+msgid "General"
+msgstr ""
+
+#: prefs.js:97
+msgid "Modes"
+msgstr ""
+
+#: prefs.js:98
+msgid "Which buttons should be enabled"
+msgstr ""
+
+#: prefs.js:103
+msgid "Suspend"
+msgstr ""
+
+#: prefs.js:111 prefs.js:142
+#, fuzzy
+msgid "Hybrid sleep"
+msgstr "Hibrid felfüggesztés"
+
+#: prefs.js:115
+msgid "Suspend then hibernate"
+msgstr ""
+
+#: prefs.js:119
+msgid "Restart..."
+msgstr ""
+
+#: prefs.js:123
+msgid "Restart to..."
+msgstr ""
+
+#: prefs.js:127
+msgid "Power Off..."
+msgstr ""
+
+#: prefs.js:132
+msgid "Dialogs"
+msgstr ""
+
+#: prefs.js:133
+msgid "Which dialogs should be enabled"
+msgstr ""
+
+#~ msgid "This extension has no settings available"
+#~ msgstr "Ennek a kiterjesztésnek nincsenek beállításai"

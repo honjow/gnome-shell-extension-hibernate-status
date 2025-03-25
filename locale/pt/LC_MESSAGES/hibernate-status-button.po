@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hibernate Status Button\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-11 18:31+0200\n"
+"POT-Creation-Date: 2025-03-25 18:22+0800\n"
 "PO-Revision-Date: 2022-10-22 21:30+0200\n"
 "Last-Translator: mantonelli <matheus.antonelli@gmail.com>\n"
 "Language-Team: Portuguese <matheus.antonelli@gmail.com>\n"
@@ -16,45 +16,59 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: confirmDialog.js:23 confirmDialog.js:32
+#: extension.js:245 extension.js:255 extension.js:441 prefs.js:107 prefs.js:138
 msgid "Hibernate"
 msgstr "Hibernar"
 
-#: extension.js:192
-msgid "Hybrid Sleep"
-msgstr "Suspensão Híbrida"
-
-#: confirmDialog.js:24
+#: extension.js:246
 msgid "Do you really want to hibernate the system?"
 msgstr "Deseja realmente hibernar o sistema?"
 
-#: confirmDialog.js:27 confirmDialog.js:44 confirmDialog.js:67
+#: extension.js:250 extension.js:283 extension.js:316 extension.js:356
+#: extension.js:403
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: confirmDialog.js:40
+#: extension.js:278 extension.js:288 extension.js:448
+msgid "Hybrid Sleep"
+msgstr "Suspensão Híbrida"
+
+#: extension.js:279
+#, fuzzy
+msgid "Do you really want to hybrid sleep the system?"
+msgstr "Deseja realmente hibernar o sistema?"
+
+#: extension.js:311 extension.js:321 extension.js:456 prefs.js:146
+msgid "Suspend then Hibernate"
+msgstr ""
+
+#: extension.js:312
+#, fuzzy
+msgid "Do you really want to suspend then hibernate the system?"
+msgstr "Deseja realmente hibernar o sistema?"
+
+#: extension.js:351
 msgid "Hibernate button: Systemd Missing"
 msgstr "Systemd não está instalado"
 
-#: confirmDialog.js:41
+#: extension.js:352
 msgid "Systemd seems to be missing and is required."
 msgstr "Systemd não está instalado e é necessário"
 
-#: confirmDialog.js:49 confirmDialog.js:72
+#: extension.js:361 extension.js:408
 msgid "Disable Extension"
 msgstr "Desabilitar extensão"
 
-#: confirmDialog.js:58
+#: extension.js:392
 msgid "Hibernate button: Hibernate failed"
 msgstr "Hibernação falhou"
 
-#: confirmDialog.js:59
+#: extension.js:394
+#, fuzzy
 msgid ""
-"Looks like hibernation failed.\n"
-"On some linux distributions hibernation is disabled\n"
-"because not all hardware supports it well;\n"
-"please check your distribution documentation\n"
-"on how to enable it."
+"Looks like hibernation failed. On some linux distributions hibernation is "
+"disabled because not all hardware supports it well; please check your "
+"distribution documentation on how to enable it."
 msgstr ""
 "Parece que a hibernação falhou.\n"
 "Em algumas distribuições Linux a hibernação é desabilitada\n"
@@ -62,10 +76,54 @@ msgstr ""
 "Confira a documentação de sua distribuição\n"
 "para aprender como habilitá-la."
 
-#: confirmDialog.js:64
+#: extension.js:399
 msgid "You are wrong, don't check this anymore!"
 msgstr "Você errou! Não selecione isso novamente!"
 
-#: prefs.js:99
-msgid "This extension has no settings available"
-msgstr "Essa extensão não possui configurações disponíveis"
+#: prefs.js:91
+msgid "General"
+msgstr ""
+
+#: prefs.js:97
+msgid "Modes"
+msgstr ""
+
+#: prefs.js:98
+msgid "Which buttons should be enabled"
+msgstr ""
+
+#: prefs.js:103
+msgid "Suspend"
+msgstr ""
+
+#: prefs.js:111 prefs.js:142
+#, fuzzy
+msgid "Hybrid sleep"
+msgstr "Suspensão Híbrida"
+
+#: prefs.js:115
+msgid "Suspend then hibernate"
+msgstr ""
+
+#: prefs.js:119
+msgid "Restart..."
+msgstr ""
+
+#: prefs.js:123
+msgid "Restart to..."
+msgstr ""
+
+#: prefs.js:127
+msgid "Power Off..."
+msgstr ""
+
+#: prefs.js:132
+msgid "Dialogs"
+msgstr ""
+
+#: prefs.js:133
+msgid "Which dialogs should be enabled"
+msgstr ""
+
+#~ msgid "This extension has no settings available"
+#~ msgstr "Essa extensão não possui configurações disponíveis"

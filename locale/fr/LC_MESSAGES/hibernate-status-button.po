@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Hibernate Status Button\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-12 10:52+0100\n"
+"POT-Creation-Date: 2025-03-25 18:22+0800\n"
 "PO-Revision-Date: 2024-12-12 11:18+0100\n"
 "Last-Translator: Gilou <contact+dev@gilouweb.com>\n"
 "Language-Team: French <jerome.debretagne@gmail.com>\n"
@@ -17,52 +17,52 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: extension.js:250 extension.js:260 extension.js:446 prefs.js:107 prefs.js:138
+#: extension.js:245 extension.js:255 extension.js:441 prefs.js:107 prefs.js:138
 msgid "Hibernate"
 msgstr "Mettre en hibernation"
 
-#: extension.js:251
+#: extension.js:246
 msgid "Do you really want to hibernate the system?"
 msgstr "Voulez-vous vraiment mettre l'appareil en hibernation ?"
 
-#: extension.js:255 extension.js:288 extension.js:321 extension.js:361
-#: extension.js:408
+#: extension.js:250 extension.js:283 extension.js:316 extension.js:356
+#: extension.js:403
 msgid "Cancel"
 msgstr "Annuler"
 
-#: extension.js:283 extension.js:293 extension.js:453
+#: extension.js:278 extension.js:288 extension.js:448
 msgid "Hybrid Sleep"
 msgstr "Mettre en veille hybride"
 
-#: extension.js:284
+#: extension.js:279
 msgid "Do you really want to hybrid sleep the system?"
 msgstr "Voulez-vous vraiment mettre l'appareil en veille hybride ?"
 
-#: extension.js:316 extension.js:326 extension.js:461 prefs.js:146
+#: extension.js:311 extension.js:321 extension.js:456 prefs.js:146
 msgid "Suspend then Hibernate"
 msgstr "Mettre en veille, puis hiberner"
 
-#: extension.js:317
+#: extension.js:312
 msgid "Do you really want to suspend then hibernate the system?"
 msgstr "Voulez-vous vraiment mettre l'appareil en hibernation ?"
 
-#: extension.js:356
+#: extension.js:351
 msgid "Hibernate button: Systemd Missing"
 msgstr "Extension de mise en veille prolongée : systemd manquant"
 
-#: extension.js:357
+#: extension.js:352
 msgid "Systemd seems to be missing and is required."
 msgstr "systemd ne semble pas installé et est nécessaire."
 
-#: extension.js:366 extension.js:413
+#: extension.js:361 extension.js:408
 msgid "Disable Extension"
 msgstr "Désactiver l'extension"
 
-#: extension.js:397
+#: extension.js:392
 msgid "Hibernate button: Hibernate failed"
 msgstr "Extension de mise en hibernation : échec"
 
-#: extension.js:399
+#: extension.js:394
 msgid ""
 "Looks like hibernation failed. On some linux distributions hibernation is "
 "disabled because not all hardware supports it well; please check your "
@@ -74,7 +74,7 @@ msgstr ""
 "Veuillez vous reporter à la documentation de votre distribution\n"
 "pour savoir comment l'activer."
 
-#: extension.js:404
+#: extension.js:399
 msgid "You are wrong, don't check this anymore!"
 msgstr "Il n'est pas utile de cocher cette case !"
 
